@@ -3,8 +3,14 @@ module instructionmemory #(parameter Width = 32)(
     output [Width-1:0] ReadData
     );
 
-reg [Width-1:0] Mem[511:0];
+reg [Width-1:0] Mem[63:0];
+
+
 initial
+
+
+
+
 begin
 Mem[0] = 32'h002081B3; // add $1, $2, $3
 Mem[4] = 32'h403202B3; // sub $4, $3, $5

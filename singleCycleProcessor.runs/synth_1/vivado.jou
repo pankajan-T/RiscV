@@ -2,11 +2,11 @@
 # Vivado v2019.1.1 (64-bit)
 # SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
 # IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
-# Start of session at: Wed Feb  1 20:42:01 2023
-# Process ID: 4040
+# Start of session at: Thu Feb  2 12:21:17 2023
+# Process ID: 12932
 # Current directory: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1
-# Command line: vivado.exe -log MUX.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX.tcl
-# Log file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1/MUX.vds
+# Command line: vivado.exe -log clkControl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clkControl.tcl
+# Log file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1/clkControl.vds
 # Journal file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source MUX.tcl -notrace
+source clkControl.tcl -notrace
