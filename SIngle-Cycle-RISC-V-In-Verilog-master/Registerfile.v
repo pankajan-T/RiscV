@@ -27,6 +27,8 @@ always @(clk)
 
 begin
 
+#10 // to prevent any timing
+
 if(RegWrite)
 Register[WriteDataTrig] <= WD1;
 

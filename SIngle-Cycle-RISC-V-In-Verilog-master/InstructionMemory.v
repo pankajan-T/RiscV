@@ -28,7 +28,7 @@ Mem[48] = 32'h00110293; // addi $5, $2, 1   add immediate
 Mem[52] = 32'h00312293; // slti $5, $2, 3   sets the destination register's content to the value 1 if the first source register's contents are. less than the second source register's contents immediate
 Mem[56] = 32'h00517293; // andi $5, $2, 5   and immediate
 Mem[60] = 32'h00211293; // slli $5, $2, 2   ahift left logic immediate
-Mem[64] = 32'h002102E7; // jar $5, $2, 2  // will jump on instruction
+Mem[64] = 32'h002102E7; // jar $5, $2, 2   will jump on instruction
 
 end
 
