@@ -1,6 +1,6 @@
 module immediategeneration #(parameter Width = 32)(
 input [Width-1:0] In,
-output reg [2*Width-1:0] Out);
+output reg [Width-1:0] Out);
 always @(*)
 begin
 case(In[6:0])

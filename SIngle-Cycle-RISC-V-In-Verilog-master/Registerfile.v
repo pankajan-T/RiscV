@@ -1,6 +1,10 @@
 module Registerfile #(parameter Width = 32)(
+
 input clk, RegWrite, [4:0] Reg1, [4:0] Reg2, [4:0] WriteDataTrig, [Width-1:0] WD1,
+
 output [Width-1:0] RegReadData1, RegReadData2);
+
+
 reg [Width-1:0] Register [Width-1:0];
 initial
 
@@ -19,7 +23,7 @@ Register[9] = 32'h00000009;
 
 end
 
-always @(posedge clk)
+always @(clk)
 
 begin
 

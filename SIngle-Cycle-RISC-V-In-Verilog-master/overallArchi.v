@@ -17,7 +17,7 @@ add Adressoffset(PCoutput,shiftoutput[31:0],branchaddress); //Adder for offset i
 
 MUX #(32)MuxPC(PCPlus4,branchaddress,andoutput,PCaddress);  //PC selection
 
-PCCounter PCcount(clk,clk,PCinput,PCoutput);
+PCCounter PCcount(clk,PCinput,PCoutput);
 
 adder Add4(PCoutput,PCPlus4);       //adder for PC+4
 
