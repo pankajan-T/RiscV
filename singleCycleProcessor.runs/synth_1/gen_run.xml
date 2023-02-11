@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xczu7ev-ffvc1156-2-e" LaunchTime="1675320672">
-  <File Type="PA-TCL" Name="clkControl.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="clkControl_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="clkControl_reports.tcl"/>
-  <File Type="RDS-RDS" Name="clkControl.vds"/>
-  <File Type="RDS-UTIL" Name="clkControl_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="clkControl_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="clkControl.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="clkControl_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="clkControl_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xczu7ev-ffvc1156-2-e" LaunchTime="1675791546">
+  <File Type="PA-TCL" Name="overallArchi.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="overallArchi_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="overallArchi_reports.tcl"/>
+  <File Type="RDS-RDS" Name="overallArchi.vds"/>
+  <File Type="RDS-UTIL" Name="overallArchi_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="overallArchi_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="overallArchi.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="overallArchi_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="overallArchi_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/clkControl.v">
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ALU.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -20,39 +20,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ALUControl.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/InstructionMemory.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/MUX.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/add.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ALU.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -60,7 +27,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/Adder.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -68,7 +34,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/DataMemory.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -76,7 +41,20 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ImmediateGeneration.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/MUX.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -84,7 +62,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/MainController.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -92,7 +69,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/PC Counter.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -100,7 +76,13 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/Registerfile.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/add.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -108,13 +90,19 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/shift.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/overallArchi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkControl.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -132,7 +120,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="clkControl"/>
+      <Option Name="TopModule" Val="overallArchi"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

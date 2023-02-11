@@ -1,7 +1,7 @@
 module overallArchi(input clk);
 
 
-wire [63:0] Writedata,immediateout, RD1,RD2, ALUinput2, ALUOut, DataOutput, shiftoutput,Mux10output;
+wire [31:0] Writedata,immediateout, RD1,RD2, ALUinput2, ALUOut, DataOutput, shiftoutput,Mux10output;
 wire [31:0] Instruct, PCoutput, PCPlus4;
 wire [31:0] branchaddress,PCinput;
 wire [3:0] Control; 

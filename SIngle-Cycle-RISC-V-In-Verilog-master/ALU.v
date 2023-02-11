@@ -1,6 +1,6 @@
 module ALU #(parameter Width = 32)(
-input [3:0] controlsignal, input [2*Width-1:0] A1,A2,
-output reg [2*Width-1:0] Y, output zero);
+input [3:0] controlsignal, input [Width-1:0] A1,A2,
+output reg [Width-1:0] Y, output zero);
 //wire [63:0] B;
 always @(*)
 begin

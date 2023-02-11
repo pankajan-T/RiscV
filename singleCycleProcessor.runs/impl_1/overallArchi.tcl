@@ -74,8 +74,8 @@ set rc [catch {
   set_property parent.project_path H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.xpr [current_project]
   set_property ip_output_repo H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1/clkControl.dcp
-  link_design -top clkControl -part xczu7ev-ffvc1156-2-e
+  add_files -quiet H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1/overallArchi.dcp
+  link_design -top overallArchi -part xczu7ev-ffvc1156-2-e
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
@@ -91,8 +91,8 @@ set ACTIVE_STEP opt_design
 set rc [catch {
   create_msg_db opt_design.pb
   opt_design 
-  write_checkpoint -force clkControl_opt.dcp
-  create_report "impl_1_opt_report_drc_0" "report_drc -file clkControl_drc_opted.rpt -pb clkControl_drc_opted.pb -rpx clkControl_drc_opted.rpx"
+  write_checkpoint -force overallArchi_opt.dcp
+  create_report "impl_1_opt_report_drc_0" "report_drc -file overallArchi_drc_opted.rpt -pb overallArchi_drc_opted.pb -rpx overallArchi_drc_opted.rpx"
   close_msg_db -file opt_design.pb
 } RESULT]
 if {$rc} {
@@ -111,10 +111,10 @@ set rc [catch {
     implement_debug_core 
   } 
   place_design 
-  write_checkpoint -force clkControl_placed.dcp
-  create_report "impl_1_place_report_io_0" "report_io -file clkControl_io_placed.rpt"
-  create_report "impl_1_place_report_utilization_0" "report_utilization -file clkControl_utilization_placed.rpt -pb clkControl_utilization_placed.pb"
-  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file clkControl_control_sets_placed.rpt"
+  write_checkpoint -force overallArchi_placed.dcp
+  create_report "impl_1_place_report_io_0" "report_io -file overallArchi_io_placed.rpt"
+  create_report "impl_1_place_report_utilization_0" "report_utilization -file overallArchi_utilization_placed.rpt -pb overallArchi_utilization_placed.pb"
+  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file overallArchi_control_sets_placed.rpt"
   close_msg_db -file place_design.pb
 } RESULT]
 if {$rc} {
@@ -130,19 +130,19 @@ set ACTIVE_STEP route_design
 set rc [catch {
   create_msg_db route_design.pb
   route_design 
-  write_checkpoint -force clkControl_routed.dcp
-  create_report "impl_1_route_report_drc_0" "report_drc -file clkControl_drc_routed.rpt -pb clkControl_drc_routed.pb -rpx clkControl_drc_routed.rpx"
-  create_report "impl_1_route_report_methodology_0" "report_methodology -file clkControl_methodology_drc_routed.rpt -pb clkControl_methodology_drc_routed.pb -rpx clkControl_methodology_drc_routed.rpx"
-  create_report "impl_1_route_report_power_0" "report_power -file clkControl_power_routed.rpt -pb clkControl_power_summary_routed.pb -rpx clkControl_power_routed.rpx"
-  create_report "impl_1_route_report_route_status_0" "report_route_status -file clkControl_route_status.rpt -pb clkControl_route_status.pb"
-  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -file clkControl_timing_summary_routed.rpt -pb clkControl_timing_summary_routed.pb -rpx clkControl_timing_summary_routed.rpx -warn_on_violation "
-  create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file clkControl_incremental_reuse_routed.rpt"
-  create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file clkControl_clock_utilization_routed.rpt"
-  create_report "impl_1_route_report_bus_skew_0" "report_bus_skew -warn_on_violation -file clkControl_bus_skew_routed.rpt -pb clkControl_bus_skew_routed.pb -rpx clkControl_bus_skew_routed.rpx"
+  write_checkpoint -force overallArchi_routed.dcp
+  create_report "impl_1_route_report_drc_0" "report_drc -file overallArchi_drc_routed.rpt -pb overallArchi_drc_routed.pb -rpx overallArchi_drc_routed.rpx"
+  create_report "impl_1_route_report_methodology_0" "report_methodology -file overallArchi_methodology_drc_routed.rpt -pb overallArchi_methodology_drc_routed.pb -rpx overallArchi_methodology_drc_routed.rpx"
+  create_report "impl_1_route_report_power_0" "report_power -file overallArchi_power_routed.rpt -pb overallArchi_power_summary_routed.pb -rpx overallArchi_power_routed.rpx"
+  create_report "impl_1_route_report_route_status_0" "report_route_status -file overallArchi_route_status.rpt -pb overallArchi_route_status.pb"
+  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -file overallArchi_timing_summary_routed.rpt -pb overallArchi_timing_summary_routed.pb -rpx overallArchi_timing_summary_routed.rpx -warn_on_violation "
+  create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file overallArchi_incremental_reuse_routed.rpt"
+  create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file overallArchi_clock_utilization_routed.rpt"
+  create_report "impl_1_route_report_bus_skew_0" "report_bus_skew -warn_on_violation -file overallArchi_bus_skew_routed.rpt -pb overallArchi_bus_skew_routed.pb -rpx overallArchi_bus_skew_routed.rpx"
   close_msg_db -file route_design.pb
 } RESULT]
 if {$rc} {
-  write_checkpoint -force clkControl_routed_error.dcp
+  write_checkpoint -force overallArchi_routed_error.dcp
   step_failed route_design
   return -code error $RESULT
 } else {

@@ -1,5 +1,5 @@
 module DataMemory #(parameter Width = 32)
-(input clk,MemTrig, MemWrite, MemRead, [Width-1:0] address,WriteData,
+(input clk, MemWrite, MemRead, [Width-1:0] address,WriteData,
 output reg [Width-1:0] ReadData);
 
 
@@ -27,14 +27,12 @@ always@(clk)
 #30 // prevent unescasarry data being stored
 
 
-begin
-if(MemTig==1)
+
 begin
 if(MemRead == 1'b1)
 ReadData <= mem1[address];
 else if(MemWrite == 1'b1)
 mem1[address] = WriteData;
-end
 end
 
 

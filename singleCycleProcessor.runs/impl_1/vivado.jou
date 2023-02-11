@@ -2,11 +2,11 @@
 # Vivado v2019.1.1 (64-bit)
 # SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
 # IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
-# Start of session at: Thu Feb  2 12:22:38 2023
-# Process ID: 12188
+# Start of session at: Tue Feb  7 23:10:13 2023
+# Process ID: 8940
 # Current directory: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1
-# Command line: vivado.exe -log clkControl.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source clkControl.tcl -notrace
-# Log file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1/clkControl.vdi
+# Command line: vivado.exe -log overallArchi.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source overallArchi.tcl -notrace
+# Log file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1/overallArchi.vdi
 # Journal file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source clkControl.tcl -notrace
+source overallArchi.tcl -notrace

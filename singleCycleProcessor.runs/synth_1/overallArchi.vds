@@ -1,13 +1,14 @@
-
-*** Running vivado
-    with args -log overallArchi.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source overallArchi.tcl
-
-
-****** Vivado v2019.1.1 (64-bit)
-  **** SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
-  **** IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
-    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Tue Feb  7 23:09:13 2023
+# Process ID: 19636
+# Current directory: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1
+# Command line: vivado.exe -log overallArchi.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source overallArchi.tcl
+# Log file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1/overallArchi.vds
+# Journal file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
 source overallArchi.tcl -notrace
 Command: synth_design -top overallArchi -part xczu7ev-ffvc1156-2-e
 Starting synth_design

@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xczu7ev-ffvc1156-2-e" LaunchTime="1675320749">
-  <File Type="BITSTR-BMM" Name="clkControl_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="clkControl_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="clkControl_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="clkControl_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="clkControl.tcl"/>
-  <File Type="OPT-TIMING" Name="clkControl_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="clkControl_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="clkControl_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="clkControl_reports.tcl"/>
-  <File Type="OPT-DRC" Name="clkControl_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="clkControl.hwdef"/>
-  <File Type="PWROPT-DCP" Name="clkControl_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="clkControl_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="clkControl_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="clkControl_placed.dcp"/>
-  <File Type="PLACE-IO" Name="clkControl_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="clkControl_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="clkControl_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="clkControl_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="clkControl_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="clkControl_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="clkControl_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="clkControl.bgn"/>
-  <File Type="PLACE-TIMING" Name="clkControl_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="clkControl_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="clkControl.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="clkControl_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="clkControl_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="clkControl_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="clkControl.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="clkControl_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="clkControl_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="clkControl_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="clkControl_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="clkControl_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="clkControl_drc_routed.pb"/>
+<GenRun Id="impl_1" LaunchPart="xczu7ev-ffvc1156-2-e" LaunchTime="1675791599">
+  <File Type="BITSTR-BMM" Name="overallArchi_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="overallArchi_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="overallArchi_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="overallArchi_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="overallArchi.tcl"/>
+  <File Type="OPT-TIMING" Name="overallArchi_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="overallArchi_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="overallArchi_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="overallArchi_reports.tcl"/>
+  <File Type="OPT-DRC" Name="overallArchi_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="overallArchi.hwdef"/>
+  <File Type="PWROPT-DCP" Name="overallArchi_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="overallArchi_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="overallArchi_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="overallArchi_placed.dcp"/>
+  <File Type="PLACE-IO" Name="overallArchi_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="overallArchi_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="overallArchi_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="overallArchi_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="overallArchi_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="overallArchi_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="overallArchi_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="overallArchi.bgn"/>
+  <File Type="PLACE-TIMING" Name="overallArchi_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="overallArchi_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="overallArchi.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="overallArchi_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="overallArchi_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="overallArchi_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="overallArchi.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="overallArchi_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="overallArchi_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="overallArchi_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="overallArchi_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="overallArchi_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="overallArchi_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="clkControl.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="clkControl_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="clkControl.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="clkControl_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="clkControl_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="clkControl.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="clkControl_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="clkControl_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="clkControl_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="clkControl_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="clkControl_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="clkControl_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="clkControl_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="clkControl_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="clkControl_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="clkControl_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="clkControl_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="clkControl_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="clkControl_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="clkControl_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="clkControl_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="clkControl_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="clkControl_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="clkControl_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="clkControl_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="clkControl.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="clkControl_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="clkControl.rbt"/>
-  <File Type="BITSTR-NKY" Name="clkControl.nky"/>
-  <File Type="BG-DRC" Name="clkControl.drc"/>
-  <File Type="RDI-RDI" Name="clkControl.vdi"/>
+  <File Type="BITSTR-LTX" Name="overallArchi.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="overallArchi_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="overallArchi.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="overallArchi_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="overallArchi_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="overallArchi.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="overallArchi_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="overallArchi_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="overallArchi_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="overallArchi_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="overallArchi_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="overallArchi_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="overallArchi_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="overallArchi_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="overallArchi_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="overallArchi_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="overallArchi_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="overallArchi_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="overallArchi_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="overallArchi_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="overallArchi_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="overallArchi_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="overallArchi_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="overallArchi_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="overallArchi_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="overallArchi.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="overallArchi_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="overallArchi.rbt"/>
+  <File Type="BITSTR-NKY" Name="overallArchi.nky"/>
+  <File Type="BG-DRC" Name="overallArchi.drc"/>
+  <File Type="RDI-RDI" Name="overallArchi.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/clkControl.v">
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ALU.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -80,39 +80,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ALUControl.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/InstructionMemory.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/MUX.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/add.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ALU.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -120,7 +87,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/Adder.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -128,7 +94,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/DataMemory.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -136,7 +101,20 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/ImmediateGeneration.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/MUX.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -144,7 +122,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/MainController.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -152,7 +129,6 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/PC Counter.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -160,7 +136,13 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/Registerfile.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/add.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -168,13 +150,19 @@
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/shift.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/SIngle-Cycle-RISC-V-In-Verilog-master/overallArchi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkControl.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -192,7 +180,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="clkControl"/>
+      <Option Name="TopModule" Val="overallArchi"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

@@ -1,13 +1,14 @@
-
-*** Running vivado
-    with args -log overallArchi.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source overallArchi.tcl -notrace
-
-
-****** Vivado v2019.1.1 (64-bit)
-  **** SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
-  **** IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
-    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Tue Feb  7 23:10:13 2023
+# Process ID: 8940
+# Current directory: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1
+# Command line: vivado.exe -log overallArchi.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source overallArchi.tcl -notrace
+# Log file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1/overallArchi.vdi
+# Journal file: H:/vivado/demo/singleCycleProcessor/singleCycleProcessor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
 source overallArchi.tcl -notrace
 Command: link_design -top overallArchi -part xczu7ev-ffvc1156-2-e
 Design is defaulting to srcset: sources_1

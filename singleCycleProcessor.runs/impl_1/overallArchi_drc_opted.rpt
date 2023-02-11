@@ -1,16 +1,16 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1.1 (win64) Build 2580384 Sat Jun 29 08:12:21 MDT 2019
-| Date         : Thu Feb  2 12:25:03 2023
+| Date         : Tue Feb  7 23:10:39 2023
 | Host         : MSI running 64-bit major release  (build 9200)
-| Command      : report_methodology -file clkControl_methodology_drc_routed.rpt -pb clkControl_methodology_drc_routed.pb -rpx clkControl_methodology_drc_routed.rpx
-| Design       : clkControl
+| Command      : report_drc -file overallArchi_drc_opted.rpt -pb overallArchi_drc_opted.pb -rpx overallArchi_drc_opted.rpx
+| Design       : overallArchi
 | Device       : xczu7ev-ffvc1156-2-e
 | Speed File   : -2
 | Design State : Fully Routed
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
-Report Methodology
+Report DRC
 
 Table of Contents
 -----------------
@@ -22,6 +22,7 @@ Table of Contents
             Netlist: netlist
           Floorplan: design_1
       Design limits: <entire design considered>
+           Ruledeck: default
              Max violations: <unlimited>
              Violations found: 0
 +------+----------+-------------+------------+
